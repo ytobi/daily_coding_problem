@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "../../handy/include/handy_hashtbl.h"
+#include "../../handy/include/handy_list.h"
 
 int main( int argc, char ** argv )
 {
