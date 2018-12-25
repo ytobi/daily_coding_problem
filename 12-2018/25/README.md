@@ -5,3 +5,14 @@ This problem was asked by Amazon.
 Run-length encoding is a fast and simple method of encoding strings. The basic idea is to represent repeated successive characters as a single count and character. For example, the string "AAAABBBCCDAA" would be encoded as "4A3B2C1D2A".
 
 Implement run-length encoding and decoding. You can assume the string to be encoded have no digits and consists solely of alphabetic characters. You can assume the string to be decoded is valid.
+
+
+## To encode
+python solver.py -e AAAABBBCCDAA
+
+## To decode
+python solver.py -d 4A3B2C1D2A
+
+## Do both at once
+python solver.py -e AAAABBBCCDAA -d 4A3B2C1D2A
+

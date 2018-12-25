@@ -3,7 +3,7 @@ import argparse
 def check_comand_line_args():
 
     parser = argparse.ArgumentParser( description=
-    "Run length encoding, take a String of char only and run  length encode them")
+    "Run length encoding, take a string and run-length encode it")
 
     parser.add_argument("-e", "--encode", dest="encode", help="Pass string to runlength encode" )
 
